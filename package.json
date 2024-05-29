@@ -1,0 +1,11 @@
+{
+  "name": "@nxtedition/swarm-labels",
+  "version": "0.0.0",
+  "description": "Automatically set docker swarm labels on nxtedition servers.",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "dockerode": "^4.0.2"
+  }
+}
