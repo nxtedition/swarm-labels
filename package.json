@@ -1,10 +1,11 @@
 {
   "name": "@nxtedition/swarm-labels",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Automatically set docker swarm labels on nxtedition servers.",
-  "main": "index.js",
-  "license": "UNLICENSED",
-  "private": false,
+  "main": "index.mjs",
+  "bin": {
+    "nxt-swarm-labels": "index.mjs"
+  },
   "dependencies": {
     "dockerode": "^4.0.2"
   }
